@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "start execute"
+!git clone https://github.com/fizyr/keras-retinanet.git
+
+%cd keras-retinanet/
+
+!pip install .
+
+!python setup.py build_ext --inplace
+
+!pip install --upgrade keras
