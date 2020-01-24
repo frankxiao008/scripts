@@ -20,7 +20,7 @@ git clone https://github.com/frankxiao008/selected_bottle_images.git
 
 mkdir /content/keras-retinanet/bottles
 
-
+python process.py
 
   
 
